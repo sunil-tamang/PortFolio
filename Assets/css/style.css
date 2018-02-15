@@ -25,28 +25,21 @@
 }
 
 .child_container {
-    padding: 1em;
-    background-color: transparent;
+    padding: 2em;
+   background:rgba(128,128,128,0.5); 
 
 }
 
-.overlay {
-    /*background:rgba(128,128,128,0.1); */
-    width: 100%;
-    height: 100%;
-
-}
 
 .author {
 
     position: absolute;
-    top: 20%;
-    padding: 2em;
-    margin: auto
+    top: 30%;
+    padding: .8em;
+    margin: 0;
 }
 
-.one,
-.two {
+.one, .two {
     letter-spacing: 5px;
     font-size: 15px;
     font-family: caviar;
@@ -75,7 +68,7 @@
 
 .social-icons a {
     font-size: 20px;
-    padding: .7em;
+    padding: .5em;
     background: transparent;
     text-decoration: none;
     color: #fff;
@@ -129,34 +122,30 @@
 
 .bio {
     position: absolute;
-    top: 40%;
+    top: 45%;
     width: 100%;
     height: auto;
-    margin: 10px auto;
-
 
 }
 
 
 .bio h1 {
     font-family: caviar;
-    font-size: 35px;
-    letter-spacing: 10px;
+    font-size: 2em;
+    letter-spacing: 5px;
 
 }
 
 .bio p {
 
     font-family: caviar;
-    font-size: .8em;
-    letter-spacing: 4px;
+    font-size: .7em;
+    letter-spacing: 5px;
     line-height: 1.5em;
 
 }
 
 footer {
-
-
 
     font-family: caviar;
     position: absolute;
@@ -216,12 +205,17 @@ footer a {
 
 @media(min-width:48em) {
 
+    .child_container {
+        padding: 1em;
+        background-color: transparent;
+
+    }
+
     .social-icons a {
         float: right;
         padding: .9em;
-        background: transparent;
-        text-decoration: none;
-        color: #fff;
+        font-size: 20px;
+
 
     }
 
@@ -229,32 +223,35 @@ footer a {
 
         top: 30%;
         left: 40%;
-        position: absolute;
+
 
 
     }
 
 
     .bio {
-        position: absolute;
+
         top: 50%;
         left: 30%;
-        display: inline-block;
-
 
     }
 
     .bio h1 {
-        font-family: caviar;
+
         font-size: 35px;
         letter-spacing: 20px;
+
     }
 
+    .bio p {
+
+        line-height: 3em;
+
+    }
     footer p {
-        display: block;
-        word-spacing: 2px;
-        letter-spacing: 2px;
-        font-size: 15px;
+
+        font-size: 1em;
+
 
     }
 }
