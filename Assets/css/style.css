@@ -1,9 +1,7 @@
 /* Folio Stylesheet */
 
 *{
-    padding: 0;
-    margin: 0;
-    color: #fff;
+    overflow: hidden; margin: 0;
 }
 
 @font-face{
@@ -13,13 +11,13 @@
 /* Header-Section */
     .container{ 
          background-image: url(img/para1.jpeg);
-        background-size:cover;
-        background-repeat: no-repeat;
-         background-position: 0% 0%;
-        background-attachment: fixed;
-        width: 100%;
-        height: 100%;
-     
+         background-size:cover;
+         background-repeat: no-repeat;
+          background-position: 0% 0%;
+         background-attachment: fixed;
+         width: 100%;
+         height: 100%;
+       
 
     }
    
@@ -27,44 +25,55 @@
       background:rgba(128,128,128,0.1);
       width: 100%;
       height: 100%;
- 
+    
 }
 
 .author{ 
-     padding-top:15%;
-     padding-left: 42%;
-     width:100px;
+   
+    position: absolute;
+    top:20%;
+    padding:2em;
+    margin-left:2em;
+      width:auto;
+      height: auto;
     
+   
 }
  
- .author .one , .author .two{
-     padding: 10px 12px; 
+ .one , .two{
      letter-spacing: 5px;
      font-size: 15px;
      font-family: caviar;
+     
+     
     
 } 
 
-.author.one{
+.one{
     background: black;
     color: white;
+    padding: 10px 12px; 
 }
-.author .two{
+
+ .two{
     padding: 10px 12px; 
     background: white;
-    color:black;
+    color:black; 
 }
+
 .social-icons{
-        display: block;
-        margin-right:5%;
+        width:auto;
+        height: auto;
+       
     }
 
 .social-icons a{
-    float: right;
-    padding: .9em;
+    font-size: 20px;
+    padding:.8em;
     background:transparent;
     text-decoration: none;
     color: #fff;
+    display: block;
     
 }
 
@@ -113,8 +122,8 @@
 */
 
 .bio{
-    position: absolute;
-    top: 50%;
+    position:absolute;
+    top: 40%;
     width: 100%;
     height: auto;
     display: inline-block;
@@ -123,6 +132,7 @@
 }
 
 .text-contents{
+    
     width: 100%;
     height: auto;
     text-align: center;
@@ -131,13 +141,13 @@
 .text-contents h1{
     font-family:caviar;
      font-size:35px;
-    letter-spacing:20px;
+    letter-spacing:10px;
 }
 
 .text-contents p{
      padding-top:15px;
      font-family:caviar;
-     font-size:10px;
+     font-size:1em;
      letter-spacing:4px;
 
 }
@@ -153,12 +163,10 @@ footer{
 }
 
 footer p{
-    display: block;
-    word-spacing:2px;
+   
     letter-spacing:2px;
-    font-size: 15px;
-    padding-top:20px;  
-    padding-left: 10px;
+    font-size:1rem;
+    padding:1em;
     
     
 
@@ -179,7 +187,7 @@ footer a{
     
 }
 
-
+/*
   @media screen and (min-width:250px) and (max-width:480px){
  
       .container{
@@ -220,4 +228,57 @@ footer a{
 
 }
       
+}
+*/
+
+@media(min-width:48em){
+    
+    .social-icons a{
+    float: right;
+    padding: .9em;
+    background:transparent;
+    text-decoration: none;
+    color: #fff;
+    
+}
+    
+    .author{ 
+    
+        top:30%;
+        left: 40%;
+      width:auto;
+      height: auto;
+      position:absolute;
+        margin:1em auto;
+    padding: 20px ;
+    float: none;
+   
+}
+    
+    
+.bio{
+    position:absolute;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    
+    
+}
+   .text-contents h1{
+    font-family:caviar;
+     font-size:35px;
+    letter-spacing:20px;
+} 
+   footer p{
+    display: block;
+    word-spacing:2px;
+    letter-spacing:2px;
+    font-size: 15px;
+    padding-top:20px;  
+    padding-left: 10px;
+    
+    
+
+} 
 }
