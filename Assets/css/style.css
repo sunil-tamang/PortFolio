@@ -1,0 +1,223 @@
+/* Folio Stylesheet */
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+@font-face{
+    font-family:caviar;
+    src:url('fonts/CODE Bold.otf');
+}
+/* Header-Section */
+    .container{ 
+         background-image: url(img/para1.jpeg);
+        background-size:cover;
+        background-repeat: no-repeat;
+         background-position: 0% 0%;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100%;
+     
+
+    }
+   
+.overlay{
+      background:rgba(128,128,128,0.1);
+      width: 100%;
+      height: 100%;
+ 
+}
+
+.author{ 
+     padding-top:15%;
+     padding-left: 42%;
+     width:100px;
+    
+}
+ 
+ .author .one , .author .two{
+     padding: 10px 12px; 
+     letter-spacing: 5px;
+     font-size: 15px;
+     font-family: caviar;
+    
+} 
+
+.author.one{
+    background: black;
+    color: white;
+}
+.author .two{
+    padding: 10px 12px; 
+    background: white;
+    color:black;
+}
+.social-icons{
+        display: block;
+        margin-right:5%;
+    }
+
+.social-icons a{
+    float: right;
+    padding: .9em;
+    background:transparent;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+/*
+ <div class="user-image">
+                 <div class="overlay"></div>
+            </div>
+.user-image{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    background-image:url(img/1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    position: relative;
+    left: 20%;
+    
+    overflow: hidden; 
+}
+
+.user-image:hover .overlay {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.user-image .overlay {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  margin: auto;
+  width: 0px;
+  height: 0px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+*/
+
+.bio{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    
+    
+}
+
+.text-contents{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.text-contents h1{
+    font-family:caviar;
+     font-size:35px;
+    letter-spacing:20px;
+}
+
+.text-contents p{
+     padding-top:15px;
+     font-family:caviar;
+     font-size:10px;
+     letter-spacing:4px;
+
+}
+
+footer{
+   
+    width:100%;
+    text-align:left;
+    font-family:caviar;
+    position: absolute;
+    bottom:20px;
+   
+}
+
+footer p{
+    display: block;
+    word-spacing:2px;
+    letter-spacing:2px;
+    font-size: 15px;
+    padding-top:20px;  
+    padding-left: 10px;
+    
+    
+
+}
+
+footer a{
+    text-decoration: none;
+    color:  #ff0000 ;
+}
+
+
+.container1{
+     
+    width: 100%;
+    height: 100%;
+    background: red;
+    display: none;
+    
+}
+
+
+  @media screen and (min-width:250px) and (max-width:480px){
+ 
+      .container{
+
+          text-align: center;
+      }
+      
+ .social-icons{
+        text-align: center;
+        margin-right:0;
+        padding-top: 20px;
+      }
+
+.social-icons a{
+    float:none;
+}
+
+ 
+ .bio{
+
+     left: 0;
+}
+
+
+.text-contents h1{
+     
+     font-size:25px;
+     letter-spacing:5px;
+     background: red;
+     padding:10px;
+}
+
+.text-contents p{
+     padding:20px;
+     line-height:30px;
+     font-size:15px;
+     letter-spacing:2px;
+
+}
+      
+}
