@@ -220,7 +220,14 @@ footer a {
 
 
 
-
+@media screen and (orientation: landscape) {
+    .container, .child_container {
+      
+        overflow-y: scroll;
+    }
+    
+    
+}
 
 
 
@@ -228,6 +235,10 @@ footer a {
 
 @media(min-width:48em) {
 
+      .container, .child_container {
+      
+        overflow:hidden;
+    }
 
     
     .social-icons a {
