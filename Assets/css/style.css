@@ -244,10 +244,14 @@ footer a {
         overflow:hidden;
     }
     
+    .social-icons {
+   
+        margin-top: 0;
+   
+}
     .social-icons a {
         float: right;
         font-size:1.5em;
-
 
     }
 
