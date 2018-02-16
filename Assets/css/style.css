@@ -22,8 +22,40 @@
     padding:3em ;
     height: 100%;
     width: 100%;
-    background: rgba(128, 128, 128, 0.3);
+   
+  -o-animation: colorcycle 20s infinite;
+  -moz-animation: colorcycle20s infinite;
+  -webkit-animation: colorcycle 20s infinite;
+  animation: colorcycle 20s infinite; 
+   background: rgba(28, 216, 242,  0.5);
 
+}
+@-o-keyframes colorcycle {
+  0%   {background-color:rgba(28, 216, 242,  0.5);  }
+  25%  {background-color:rgba(241, 148, 138,0.3);}
+  50%  {background-color:rgba(0,0,255,0.3);}
+  75%  {background-color:rgba(128,128,128,0.5);}
+}
+
+@-moz-keyframes colorcycle {
+  0%   {background-color:rgba(28, 216, 242,  0.5);  }
+  25%  {background-color:rgba(241, 148, 138,0.3);}
+  50%  {background-color:rgba(0,0,255,0.3);}
+  75%  {background-color:rgba(128,128,128,0.5);}
+}
+
+@-webkit-keyframes colorcycle {
+  0%   {background-color:rgba(28, 216, 242,  0.5);  }
+  25%  {background-color:rgba(241, 148, 138,0.3);}
+  50%  {background-color:rgba(0,0,255,0.3);}
+  75%  {background-color:rgba(128,128,128,0.5);}
+}
+
+@keyframes colorcycle {
+  0%   {background-color:rgba(28, 216, 242,  0.5);  }
+  25%  {background-color:rgba(241, 148, 138,0.3);}
+  50%  {background-color:rgba(0,0,255,0.3);}
+  75%  {background-color:rgba(128,128,128,0.5);}
 }
 
 
