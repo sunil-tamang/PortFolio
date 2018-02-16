@@ -60,8 +60,8 @@
 
 .author {
     
-    margin-top:5em;
-    padding: 2em 0 ;
+    margin-top:3em;
+    padding: 0  0  0 2em;
 
 }
 
@@ -87,7 +87,7 @@
 .social-icons {
     width: auto;
     height: auto;
-    
+    padding: 0  0  0  2em;
 }
 
 .social-icons a {
@@ -145,7 +145,7 @@
 */
 
 .bio {
-    margin-top:2em;
+    margin-top:5em;
     width: 100%;
     height: auto;
 
@@ -154,8 +154,8 @@
 
 .bio h1 {
     font-family: caviar;
-    font-size: 2em;
-    letter-spacing:.4em;
+    font-size:2em;
+    letter-spacing:.5em;
     margin: 0;
     padding:0;
 
@@ -172,7 +172,7 @@
 
 footer {
 
-    font-family: caviar;
+  
     margin-top: 5em;
 
 }
@@ -181,7 +181,6 @@ footer p {
 
     letter-spacing: .1em;
     font-size:1em;
-   
     margin: 0;
 }
 
@@ -225,7 +224,32 @@ footer a {
     .container, .child_container{
         overflow-y: scroll;
     }
- 
+    
+    .author ,  .social-icons{
+    
+    margin-top:2em;
+    padding: 0  0  0 10em;
+
+}
+    
+    .bio h1 {
+       padding: 0  0  0 2em;
+
+}
+    
+   .bio p {
+       padding: 0  0  0 10em;
+
+}
+    
+    footer {
+
+   padding: 0  0  0 4em;
+    
+
+}
+
+    
 }
 
 
@@ -271,6 +295,7 @@ footer {
     margin-top: 0;
     position: absolute;
     bottom: 2em;
-
+   
 }
+    
 }
