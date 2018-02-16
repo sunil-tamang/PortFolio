@@ -219,38 +219,31 @@ footer a {
 
 
 
-
+/* Landscape Orientation */
 @media screen and (orientation: landscape) {
-  
-    .author {
+
+.author {
     
-    margin-top:1em;
-    padding: 2em 0 ;
+    margin-top:0em;
+  
 
 }
-   .bio {
-    margin-top:1em;
-    width: 100%;
-    height: auto;
-
-} 
-    footer {
-
+.bio {
+    margin-top:0em;
    
-    position: absolute;
-    bottom: 1em;
+
+}
+    footer {
+    margin-top:2em;
 
 }
 }
 
 
-
-
-
+/* Wide Screen  */
 @media(min-width:48em) {
 
-     
-
+ 
     
     .social-icons a {
         float: right;
