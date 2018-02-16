@@ -29,6 +29,8 @@
    background: rgba(28, 216, 242,  0.5);
 
 }
+
+
 @-o-keyframes colorcycle {
   0%   {background-color:rgba(28, 216, 242,  0.5);  }
   25%  {background-color:rgba(241, 148, 138,0.3);}
@@ -59,9 +61,10 @@
 
 
 .author {
+    display:flex;
+    justify-content:center;
+    margin-top: 3em;
     
-    margin-top:3em;
-    padding: 0 ;
 
 }
 
@@ -70,6 +73,7 @@
     letter-spacing: .4em;
     font-size: .9em;
     font-family: caviar;
+    
 }
 
 .one {
@@ -87,15 +91,17 @@
 .social-icons {
     width: auto;
     height: auto;
-    padding: 0 ;
+    display: flex;
 }
 
 .social-icons a {
+    
+    margin: auto;
     font-size: 20px;
     padding:.5em;  
     text-decoration: none;
     color: #fff;
-    display: inline-block;
+   
 
 
 }
@@ -156,16 +162,19 @@
     font-family: caviar;
     font-size:2em;
     letter-spacing:.5em;
-    margin: 0;
-    padding:0;
+    margin:auto;
+   
+    
+    
 
 }
 
 .bio p {
-
+    
     font-family: caviar;
     font-size: .7em;
     letter-spacing: .2em;
+    
    
 
 }
@@ -232,6 +241,12 @@ footer a {
 
 }
 
+    
+.bio h1 ,  .bio p , footer p{
+    display: flex;
+    justify-content: center;
+    }
+
 
 
 }
@@ -245,13 +260,13 @@ footer a {
     }
     
     .social-icons {
-   
+       flex:none;
+        float: right;
         margin-top: 0;
    
 }
     .social-icons a {
-        float: right;
-        font-size:1.5em;
+                font-size:1.5em;
 
     }
 
@@ -260,6 +275,7 @@ footer a {
         top: 40%;
         left: 40%;
         margin-top: 0;
+        flex: none;
     }
 
 
