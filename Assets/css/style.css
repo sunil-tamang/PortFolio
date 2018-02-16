@@ -221,12 +221,26 @@ footer a {
 
 
 @media screen and (orientation: landscape) {
-    .container, .child_container {
-      
-        overflow-y: scroll;
-    }
+  
+    .author {
     
-    
+    margin-top:1em;
+    padding: 2em 0 ;
+
+}
+   .bio {
+    margin-top:1em;
+    width: 100%;
+    height: auto;
+
+} 
+    footer {
+
+   
+    position: absolute;
+    bottom: 1em;
+
+}
 }
 
 
@@ -235,10 +249,7 @@ footer a {
 
 @media(min-width:48em) {
 
-      .container, .child_container {
-      
-        overflow:hidden;
-    }
+     
 
     
     .social-icons a {
