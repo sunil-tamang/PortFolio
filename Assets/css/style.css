@@ -14,15 +14,14 @@
     background-image: url(img/para1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-
+     
 }
 
 .child_container {
-    position: absolute;
+    position: absolute; 
     padding:3em ;
     height: 100%;
     width: 100%;
-   
   -o-animation: colorcycle 20s infinite;
   -moz-animation: colorcycle20s infinite;
   -webkit-animation: colorcycle 20s infinite;
@@ -61,8 +60,8 @@
 
 .author {
     
-    margin-top: 4em;
-
+    margin-top:5em;
+    padding: 2em 0 ;
 
 }
 
@@ -146,7 +145,7 @@
 */
 
 .bio {
-    margin-top: 4em;
+    margin-top:2em;
     width: 100%;
     height: auto;
 
@@ -174,8 +173,7 @@
 footer {
 
     font-family: caviar;
-    position: absolute;
-    bottom: 2em;
+    margin-top: 5em;
 
 }
 
@@ -231,8 +229,7 @@ footer a {
 @media(min-width:48em) {
 
 
-
-
+    
     .social-icons a {
         float: right;
         font-size:1.5em;
@@ -263,5 +260,11 @@ footer a {
 
     }
 
+footer {
 
+    margin-top: 0;
+    position: absolute;
+    bottom: 2em;
+
+}
 }
