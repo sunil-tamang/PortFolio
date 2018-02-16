@@ -222,28 +222,19 @@ footer a {
 /* Landscape Orientation */
 @media screen and (orientation: landscape) {
 
-.author {
-    
-    margin-top:0em;
-  
-
-}
-.bio {
-    margin-top:0em;
-   
-
-}
-    footer {
-    margin-top:2em;
-
-}
+    .container, .child_container{
+        overflow-y: scroll;
+    }
+ 
 }
 
 
 /* Wide Screen  */
 @media(min-width:48em) {
 
- 
+  .container, .child_container{
+        overflow:hidden;
+    }
     
     .social-icons a {
         float: right;
