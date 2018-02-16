@@ -224,32 +224,16 @@ footer a {
     .container, .child_container{
         overflow-y: scroll;
     }
+  
+    .author, .social-icons  {
     
-    .author ,  .social-icons{
-    
-    margin-top:2em;
-    padding: 0  0  0 10em;
-
-}
-    
-    .bio h1 {
-       padding: 0  0  0 2em;
-
-}
-    
-   .bio p {
-       padding: 0  0  0 10em;
-
-}
-    
-    footer {
-
-   padding: 0  0  0 4em;
-    
+    margin-top:3em;
+    padding: 0  0  0 0em;
 
 }
 
-    
+
+
 }
 
 
@@ -269,7 +253,7 @@ footer a {
 
     .author {
        position: absolute;
-        top: 30%;
+        top: 40%;
         left: 40%;
         margin-top: 0;
     }
