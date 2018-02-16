@@ -22,14 +22,14 @@
     padding:3em ;
     height: 100%;
     width: 100%;
-    background: rgba(128, 128, 128, 0.2);
+    background: rgba(128, 128, 128, 0.3);
 
 }
 
 
 .author {
-   
-    margin-top: 5em;
+    
+    margin-top: 4em;
 
 
 }
@@ -62,7 +62,6 @@
 .social-icons a {
     font-size: 20px;
     padding:.5em;  
-    background: transparent;
     text-decoration: none;
     color: #fff;
     display: inline-block;
@@ -115,7 +114,7 @@
 */
 
 .bio {
-    margin-top: 5em;
+    margin-top: 4em;
     width: 100%;
     height: auto;
 
@@ -152,7 +151,7 @@ footer p {
 
     letter-spacing: .1em;
     font-size:1em;
-    padding: 1em;
+   
     margin: 0;
 }
 
