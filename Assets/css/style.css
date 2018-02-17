@@ -6,26 +6,31 @@
 /* Header-Section */
 
 .container {
-    position: fixed;
+  
     width: 100%;
     height: 100%;
     background-image: url(img/para1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    
+
      
 }
-
-.child_container {
-    position: absolute; 
-    padding:3em ;
-    height: 100%;
+.child_container{
+    padding: 2em ;
     width: 100%;
+    height: 100%; 
+}
+.color_cycle {
+    position:fixed; 
+    max-height: 100%;
+    max-width: 100%;
   -o-animation: colorcycle 20s infinite;
   -moz-animation: colorcycle20s infinite;
   -webkit-animation: colorcycle 20s infinite;
-  animation: colorcycle 20s infinite; 
-   background: rgba(28, 216, 242,  0.5);
-
+   animation: colorcycle 20s infinite; 
+  background-color:rgba(28, 216, 242,  0.3); 
+      
 }
 
 
@@ -51,17 +56,32 @@
 }
 
 @keyframes colorcycle {
-  0%   {background-color:rgba(28, 216, 242,  0.5);  }
+  0%   {background-color:rgba(0,0,255,0.3);  }
   25%  {background-color:rgba(241, 148, 138,0.3);}
-  50%  {background-color:rgba(0,0,255,0.3);}
-  75%  {background-color:rgba(128,128,128,0.5);}
+  50%  {background-color:rgba(28, 216, 242,  0.3);}
+  75%  {background-color:rgba(128,128,128,0.3);}
 }
 
+.social-icons {
+   
+    display: flex;
+   
+}
+
+.social-icons a {
+    
+    margin: auto;
+    font-size:1.5em;
+    padding:.5em;  
+    text-decoration: none;
+    color: #fff;
+
+}
 
 .author {
     display:flex;
     justify-content:center;
-    margin-top: 3em;
+    margin-top:20%;
     
 
 }
@@ -69,6 +89,7 @@
 .one, .two {
     letter-spacing: .4em;
     font-size: .9em;
+    padding: 10px 12px;
     
     
 }
@@ -76,32 +97,16 @@
 .one {
     background: black;
     color: white;
-    padding: 10px 12px;
+  
 }
 
 .two {
-    padding: 10px 12px;
+   
     background: white;
     color: black;
 }
 
-.social-icons {
-    width: auto;
-    height: auto;
-    display: flex;
-}
 
-.social-icons a {
-    
-    margin: auto;
-    font-size: 20px;
-    padding:.5em;  
-    text-decoration: none;
-    color: #fff;
-   
-
-
-}
 
 /*
  <div class="user-image">
@@ -148,130 +153,105 @@
 */
 
 .bio {
-    margin-top:5em;
-    width: 100%;
-    height: auto;
-
+    margin-top:20%;
+   
 }
 
 
 .bio h1 {
     display: flex;
-    justify-content: center;
-    margin: 0;
+    
     font-size:2.5em;
-    letter-spacing:.2em;
+    margin: auto;
+    letter-spacing:.1em;
     font-family: 'Iceland', cursive;
     
 
 }
 
 .bio p {
-    display: flex;
-    justify-content: center;
+    
     font-family: 'Iceland', cursive;
     font-size:1em;
-    letter-spacing: .2em;
-    margin: 0;
+    letter-spacing: .1em;
     color: #ffff;
    
 
 }
 
-footer {
 
-    display: flex;
-    justify-content: center;
-    margin-top: 8em;
-
-}
 
 footer p {
 
     letter-spacing: .1em;
     font-size:1em;
-    margin: 0;
+   
 }
 
 footer a {
     
-     color:red;
-
-}
-
-
-.container1 {
-
-    width: 100%;
-    height: 100%;
-    background: red;
-    display: none;
-
+     color:white;
 
 }
 
 
 
-/* Landscape Orientation */
+/* Landscape Orientation 
 @media screen and (orientation: landscape) {
 
     .container, .child_container{
         overflow-y: scroll;
     }
-  
-}
-
-
-/* Wide Screen  */
-@media(min-width:48em) {
-
-  .container, .child_container{
+.container, .child_container{
         overflow:hidden;
     }
-    
+  
+}
+*/
+
+/* Wide Screen  */
+@media(min-width:600px) {
+  
+
     .social-icons {
-       flex:none;
-        float: right;
-        margin-top: 0;
+         
+         float: right;
+       
    
 }
     .social-icons a {
                 font-size:1.5em;
 
     }
+    
+    
 
     .author {
-       position: absolute;
-        top: 35%;
-        left: 40%;
-        margin-top: 0;
-        flex: none;
+        margin-top:15%;
+        
+       
     }
 
-
-    .bio {
-         position: absolute;
-        top: 45%;
-        left: 0%;
-        margin-top: 0;
+    .bio{
+        margin-top:2%;
+    }
+    
+    .bio p{
+             display: flex;
+             justify-content: center;
 
     }
-.bio h1 {
+    
+    .bio h1 {
   
-   
+    display: flex;
+    justify-content: center;
     font-size:3em;
     letter-spacing:.2em;
-    
-    
-
 }
 
-footer {
-
-    margin-top: 0;
-    position: absolute;
-    bottom: 2em;
-   
-}
+    footer{
+     
+    }
     
 }
