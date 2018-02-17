@@ -24,15 +24,15 @@
     z-index: 1000;
 }
 .color_cycle {
-<<<<<<< HEAD
+
    position: fixed;
    height: 100%;
    width: 100%;
-=======
+
 
     max-height: 100%;
     max-width: 100%;
->>>>>>> add62e77f3d2767e6b6cb271e0dd0b4bc0df37ed
+
   -o-animation: colorcycle 20s infinite;
   -moz-animation: colorcycle20s infinite;
   -webkit-animation: colorcycle 20s infinite;
