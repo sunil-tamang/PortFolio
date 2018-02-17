@@ -1,9 +1,7 @@
-@font-face {
-    font-family: caviar;
-    src: url('fonts/CODE Bold.otf');
-}
-
-
+@import url('https://fonts.googleapis.com/css?family=Iceland');
+  * {
+      font-family: 'Iceland', cursive;
+      }
 
 /* Header-Section */
 
@@ -68,11 +66,10 @@
 
 }
 
-.one,
-.two {
+.one, .two {
     letter-spacing: .4em;
     font-size: .9em;
-    font-family: caviar;
+    
     
 }
 
@@ -159,30 +156,33 @@
 
 
 .bio h1 {
-    font-family: caviar;
-    font-size:2em;
-    letter-spacing:.5em;
-    margin:auto;
-   
-    
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size:2.5em;
+    letter-spacing:.2em;
+    font-family: 'Iceland', cursive;
     
 
 }
 
 .bio p {
-    
-    font-family: caviar;
-    font-size: .7em;
+    display: flex;
+    justify-content: center;
+    font-family: 'Iceland', cursive;
+    font-size:1em;
     letter-spacing: .2em;
-    
+    margin: 0;
+    color: #ffff;
    
 
 }
 
 footer {
 
-  
-    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
 
 }
 
@@ -194,8 +194,8 @@ footer p {
 }
 
 footer a {
-    text-decoration: none;
-    color: white;
+    
+     color:red;
 
 }
 
@@ -212,21 +212,6 @@ footer a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Landscape Orientation */
 @media screen and (orientation: landscape) {
 
@@ -234,21 +219,6 @@ footer a {
         overflow-y: scroll;
     }
   
-    .author, .social-icons  {
-    
-    margin-top:3em;
-    padding: 0  0  0 0em;
-
-}
-
-    
-.bio h1 ,  .bio p , footer p{
-    display: flex;
-    justify-content: center;
-    }
-
-
-
 }
 
 
@@ -272,7 +242,7 @@ footer a {
 
     .author {
        position: absolute;
-        top: 40%;
+        top: 35%;
         left: 40%;
         margin-top: 0;
         flex: none;
@@ -281,18 +251,20 @@ footer a {
 
     .bio {
          position: absolute;
-        top: 50%;
+        top: 45%;
         left: 0%;
         margin-top: 0;
+
+    }
+.bio h1 {
   
-    }
+   
+    font-size:3em;
+    letter-spacing:.2em;
+    
+    
 
-    .bio h1 {
-
-        font-size: 2em;
-        letter-spacing: 20px;
-
-    }
+}
 
 footer {
 
