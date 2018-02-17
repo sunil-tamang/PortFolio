@@ -22,7 +22,7 @@
     height: 100%; 
 }
 .color_cycle {
-    position:fixed; 
+
     max-height: 100%;
     max-width: 100%;
   -o-animation: colorcycle 20s infinite;
