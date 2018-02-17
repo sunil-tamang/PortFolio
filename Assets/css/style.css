@@ -6,9 +6,10 @@
 /* Header-Section */
 
 .container {
-  
+   position:fixed; 
     width: 100%;
     height: 100%;
+    overflow-y:auto;
     background-image: url(img/para1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,9 +23,9 @@
     height: 100%; 
 }
 .color_cycle {
-    position:fixed; 
-    max-height: 100%;
-    max-width: 100%;
+   position: fixed;
+   height: 100%;
+   width: 100%;
   -o-animation: colorcycle 20s infinite;
   -moz-animation: colorcycle20s infinite;
   -webkit-animation: colorcycle 20s infinite;
@@ -153,15 +154,15 @@
 */
 
 .bio {
-    margin-top:20%;
+    margin-top:30%;
    
 }
 
 
 .bio h1 {
     display: flex;
-    
-    font-size:2.5em;
+    justify-content: center;
+    font-size:2em;
     margin: auto;
     letter-spacing:.1em;
     font-family: 'Iceland', cursive;
@@ -170,21 +171,27 @@
 }
 
 .bio p {
-    
+     display: flex;
+    justify-content: center;
     font-family: 'Iceland', cursive;
-    font-size:1em;
+    font-size:.8em;
     letter-spacing: .1em;
     color: #ffff;
    
 
 }
 
-
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+   
+}
 
 footer p {
-
+    
     letter-spacing: .1em;
-    font-size:1em;
+    font-size:.8em;
    
 }
 
@@ -210,22 +217,23 @@ footer a {
 */
 
 /* Wide Screen  */
-@media(min-width:600px) {
+@media(min-width:48em) {
   
-
+    .container{
+        overflow-y: hidden;
+    }
     .social-icons {
          
          float: right;
        
    
 }
+    
     .social-icons a {
                 font-size:1.5em;
 
     }
     
-    
-
     .author {
         margin-top:15%;
         
@@ -251,7 +259,14 @@ footer a {
 }
 
     footer{
-     
+   
+    justify-content: flex-start;
+    margin-top: 15%;
+   
+}
+    
+    footer p{
+        font-size: 1em;
     }
     
 }
