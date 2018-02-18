@@ -222,7 +222,7 @@ footer a {
 */
 
 /* Wide Screen  */
-@media(min-width:48em) {
+@media(min-width:760px) {
   
     .container, .color_cycle{
         overflow-y: hidden;
