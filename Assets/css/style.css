@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Iceland');
   * {
-      font-family: 'Iceland', cursive;
+      
       }
 
 /* Header-Section */
@@ -184,13 +184,7 @@
     padding: 4em;
 }
 
-footer{
-  
-    background: ;
-    margin-top: 8em;
- 
-    
-}
+
 footer p {
     
     letter-spacing: .1em;
