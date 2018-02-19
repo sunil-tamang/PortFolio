@@ -89,14 +89,7 @@ box-sizing: border-box;
 
 }
 
-.author {
-    display:flex;
-    justify-content:center;
-    margin-top: 5em;
-  
-    
 
-}
 
 .one, .two {
     letter-spacing: .4em;
@@ -171,8 +164,7 @@ box-sizing: border-box;
 
 
 .bio h1 {
-    display: flex;
-    justify-content: center;
+  
     font-size:2em;
     margin: auto;
     letter-spacing:.1em;
@@ -231,7 +223,7 @@ footer a {
 @media(min-width:760px) {
   
     .container, .color_cycle{
-        overflow-y: hidden;
+        overflow-y:auto;
     }
     .social-icons {
          
